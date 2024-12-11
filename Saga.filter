@@ -1,0 +1,161 @@
+#===================================#
+#		   	 	Saga  	 	 		#
+#		    Filter v0.1		 	 	#
+#			Native Audio			#
+#			   12/8/24				#
+#===================================#
+
+#=================================
+#			 Credits
+#=================================
+
+# Neversync - Filterblade for reference
+
+#=================================
+#		Table of Contents
+#=================================
+
+#=================================
+#			Override
+#=================================
+
+#=================================
+#			Currency
+#=================================
+
+Show
+	BaseType == "Gold"
+	SetFontSize 30
+	SetTextColor 214 169 45
+	SetBorderColor 153 124 44
+	PlayEffect Yellow Temp
+
+Show 
+	Class Currency
+	BaseType "Scroll of Wisdom"
+	SetFontSize 30
+	SetBorderColor 200 0 0 210
+
+Show
+	Class Currency
+	BaseType "Orb of Transmutation" "Orb of Augmentation"
+	SetFontSize 30
+	SetTextColor 133 182 255
+	SetBorderColor 133 182 255 150
+	MinimapIcon 1 Blue Circle
+	PlayEffect Blue
+	
+Show
+	Class Currency
+	BaseType "Transmutation Shard"
+	SetFontSize 30
+	SetTextColor 133 182 255
+	SetBorderColor 133 182 255 150
+	MinimapIcon 1 Blue Circle
+	PlayEffect Blue
+	
+Show
+	Class Currency
+	BaseType "Orb of Alchemy" "Regal Orb" "Chaos Orb" "Exalted Orb" "Orb of Chance" "Jeweller's Orb"
+	SetFontSize 35
+	SetTextColor 232 226 160
+	SetBorderColor 232 226 160 140
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow Circle
+	
+Show
+	Class Currency
+	BaseType "Regal Shard" "Chance Shard"
+	SetFontSize 30
+	SetTextColor 232 226 160
+	SetBorderColor 232 226 160 140
+	PlayEffect Yellow Temp
+	MinimapIcon 2 Yellow Circle
+	
+Show
+	Class Currency
+	BaseType "Vaal Orb"
+	SetFontSize 30
+	SetTextColor 208 91 91
+	SetBorderColor 208 91 91 140
+	MinimapIcon 2 Red Circle
+	PlayEffect Red
+	
+Show
+	Class Currency
+	BaseType == "Mirror of Kalandra" "Divine Orb"
+	SetFontSize 40
+	SetTextColor 232 226 160
+	SetBorderColor 232 226 160 140
+	SetBackgroundColor 76 51 12
+	MinimapIcon 0 Orange Circle
+	PlayEffect Orange
+	
+Show
+	Class Currency
+	BaseType "Blacksmith's Whetstone" "Armourer's Scrap" "Arcanist's Etcher"
+	SetFontSize 30
+	SetTextColor 160 121 74
+	SetBorderColor 160 121 74 140
+	
+Show
+	Class Currency
+	BaseType "Artificer's Orb"
+	SetFontSize 30
+	SetTextColor 148 186 81
+	SetBorderColor 148 186 81 140
+	MinimapIcon 2 Green Circle
+	PlayEffect Green
+	
+Show
+	Class Currency
+	BaseType "Gemcutter's Prism" "Glassblower's Bauble"
+	SetFontSize 30
+	SetTextColor 148 186 81
+	SetBorderColor 148 186 81 140
+	MinimapIcon 2 Green Circle
+	PlayEffect Yellow
+	
+Show
+	BaseType "Rune"
+	SetFontSize 30
+	SetTextColor 168 229 253 #85 225 255
+	SetBorderColor 168 229 253 140 #85 225 255 150
+	
+Show
+	BaseType "Gem"
+	SetFontSize 30
+	SetTextColor 126 201 187
+	SetBorderColor 126 201 187 150
+	#etBackgroundColor 6 0 60
+	MinimapIcon 2 Cyan Star
+	
+Show
+	BaseType "Essence of"
+	SetTextColor 255 207 132
+	SetBorderColor 255 207 132
+	#SetBackgroundColor 76 51 12
+	PlayEffect White
+	MinimapIcon 1 White Circle
+	
+# Other
+
+Show
+	BaseType "Charm"
+	SetFontSize 30
+	SetTextColor 183 172 153
+	SetBorderColor 183 172 153 150
+	
+Show
+	Sockets > 0
+	SetFontSize 30
+	SetBorderColor 148 186 81 140
+	#MinimapIcon 2 Pink Hexagon
+	#PlayEffect Pink
+	
+Show
+	Quality > 0
+	SetFontSize 30
+	SetBorderColor 160 121 74 140
+	#MinimapIcon 2 Pink Hexagon
+	#PlayEffect Pink
